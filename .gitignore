@@ -1,0 +1,34 @@
+**/.DS_Store
+# package directories
+/TODO-backend/node_modules
+/TODO-backend/jspm_packages
+
+# Serverless directories
+/TODO-backend/.serverless
+/stage.ts
+
+# esbuild directories
+/.esbuild
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/TODO-client/node_modules
+/TODO-client/.pnp
+/TODO-client/.pnp.js
+
+# testing
+/TODO-client/coverage
+
+# production
+/TODO-client/build
+
+# misc
+/TODO-client/.env.local
+/TODO-client/.env.development.local
+/TODO-client/.env.test.local
+/TODO-client/.env.production.local
+
+/TODO-client/npm-debug.log*
+/TODO-client/yarn-debug.log*
+/TODO-client/yarn-error.log*
