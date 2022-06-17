@@ -1,3 +1,15 @@
+# Testing Instructions
+
+I prefer testing the backend using Postman since the Frontend does not have means to test niether update TODO nor testing errors
+
+## Using Frontend
+
+The config.ts is already updated with the correct values apiId and authConfig
+
+## Using Postman
+
+The Postman collection parmeters of appId and authToken are provided. Auth0 token is configured to expire after one week, so it should work.
+
 # Serverless TODO
 
 To implement this project, you need to implement a simple TODO application using AWS Lambda and Serverless framework. Search for all comments starting with the `TODO:` in the code to find the placeholders that you need to implement.
