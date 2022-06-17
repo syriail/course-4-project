@@ -14,11 +14,6 @@ const getTodos: APIGatewayProxyHandler = async(event: APIGatewayProxyEvent):Prom
     logger.info('Get TODOs of user:', userId)
     try{
         const items = await getUserTodos(userId)
-        //We may just return an empty list instead of 404
-        if(!items.length){
-            logger.info('User has no TODO yet')
-            throw new createError[404]
-        }
         return {
             statusCode:200,
             body: JSON.stringify({items})
